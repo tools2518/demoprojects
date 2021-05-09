@@ -25,6 +25,7 @@ public class SpringBootDemoApplication {
 			for (String beanName : beanNames) {
 				System.out.println(beanName);
 			}
+			System.out.println("checkout");
 
 		};
 	}
